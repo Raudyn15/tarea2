@@ -1,0 +1,86 @@
+/*html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.titulodos{
+    text-align: center;
+}
+
+
+
+.contenedor{
+    margin: 30vh auto;
+    border: 5px solid black;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.caja-1{
+    background-color: #005f73;
+    position: static;
+    /*top: 100px;
+    left: ;
+    right: ;
+    bottom: ; 
+    Las propiedades anteriores no hacen efecto ya que al estar
+    estatico no permite mover el elemento*/
+}
+
+.caja-2{
+    background-color: #0a9396;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+    /* 
+    right: ;
+    bottom: ; */   
+}
+
+.caja-3{
+    background-color: #94d2bd;
+    position: absolute;
+    top: 1000px;
+}
+
+.caja-4{
+    background-color: #e9d8a6;
+}
+
+.caja-5{
+    background-color: #ae2012;
+}
+
+.caja-6{
+    background-color: #9b2226;
+}
+
+.cabecera{
+    background-color: black;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.float{
+    float: left;
+    margin-right: 10px;
+}
+
+.clear{
+    clear: both;
+}
+

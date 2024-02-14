@@ -1,0 +1,40 @@
+body{
+    padding-top: 100px;
+}
+
+div h1.color{
+    color: #333333;
+    background-color: lightseagreen;
+}
+
+.ejemplo1{
+    padding-left: 40px;
+    padding-top: 20px;
+   
+}
+
+.ejemplo2{
+    margin-top: 80px;
+}
+
+.ejemplo3{
+    border: 5px solid #000;
+}
+
+span{
+    color: blue;
+}
+
+.bloque{
+    width: 200px;
+    height: 200px;
+    background: lightseagreen;
+    display: inline-block;
+}
+
+.none{
+    width: 200px;
+    height: 200px;
+    background: lightseagreen;
+    display: none;
+}

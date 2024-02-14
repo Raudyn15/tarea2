@@ -1,0 +1,221 @@
+.flexcontainer{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: row-reverse;
+}
+
+.flexcontainer div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexWrap{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.flexWrap div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexFlow{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 300px;
+    flex-flow: row wrap;
+}
+
+.flexFlow div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexjustify{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+   /* width: 300px; */
+    justify-content: center;
+}
+
+.flexjustify div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexalign{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+   /* width: 300px; */
+   height: 200px;
+    align-items: center;
+}
+
+.flexalign div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexalignContent{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 300px; 
+    height: 300px;
+    align-content: space-around;
+}
+
+.flexalignContent div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexOrder{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.flexOrder div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexShrink{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.flexShrink div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexGrow{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.flexGrow div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flexBasis{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.flexBasis div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flex{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.flex div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.alignSelf{
+    display: flex;
+    background-color: antiquewhite;
+    height: 100px;
+
+}
+
+.alignSelf div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    width: 50px;
+}
+
+.flexresponsive{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.flexresponsive div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    flex-basis: 100px;
+}
+
+@media (max-width: 600px){
+    .flexresponsive{
+        flex-direction: column;
+    }
+
+    .flexresponsive div{
+        flex-basis: 100px;
+    }
+}
